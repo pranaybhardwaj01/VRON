@@ -3,9 +3,35 @@
         <div style="height:40%; width:100%; margin-top: 1em; margin-bottom: 1em;text-align: center;">
             <img src="img/person1.png" style="width:70%;height:100%" /> </div>
         <ion-list>
-            <ion-toggle ng-model="settings.enableFriends">
-                Enable Friends
-            </ion-toggle>
+            <div class="list">
+                <label class="item item-input">
+                <span class="input-label">College Id.</span>
+                <input type="text" value="22210">
+                </label>
+                <label class="item item-input">
+                <span class="input-label">Password</span>
+                <input type="password" value="peeyush">
+                </label>
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        Your Bus.
+                    </div>
+                    <select>
+                    <option>Bus No. 1</option>
+                    <option selected>Bus No. 2</option>
+                    <option>Bus No. 3</option>
+                    <option>Bus No. 4</option>
+                    <option>Bus No. 5</option>
+                    <option>Bus No. 6</option>
+                    
+                    </select>
+                </label>
+            </div>
+            <div align="center">
+                <button class="button button-outline button-assertive"> 
+                Change Password
+                </button>
+            </div>
         </ion-list>
     </ion-content>
 </ion-view>
